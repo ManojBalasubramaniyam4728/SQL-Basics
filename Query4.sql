@@ -52,8 +52,9 @@ select month, sum(Amount)  from Transactions
  where branch='sydney' or branch='paris' 
  group by month having sum(amount)<1000;
 
-
-
-
+#Which branch have more than total sum of 4000Bucks in Feb
+select month, sum(Amount)  from Transactions
+ where month='feb' 
+ group by month having sum(amount)>4000;
 
 

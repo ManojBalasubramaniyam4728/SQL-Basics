@@ -8,8 +8,8 @@ use QADBT;
 create table Employeeinfo(name varchar(20), id int, location varchar(20), age int);
 describe Employeeinfo;
 insert into Employeeinfo values('man',1,'newjersey',21);
-insert into Employeeinfo values('sam',1,'newyork',23);
-insert into Employeeinfo values('tam',1,'texas',25);
+insert into Employeeinfo values('sam',2,'newyork',23);
+insert into Employeeinfo values('tam',3,'texas',25);
 
 #To Select the the table data with column name
 select name,id,location,age from Employeeinfo;
@@ -38,6 +38,13 @@ update Employeeinfo set gender='male' where name='sam';
 update Employeeinfo set gender='female' where name='tam';
 select * from Employeeinfo;
 
+#If user want to delete the entry row in the table of database
+delete from Employeeinfo where name='tam';
+select * from Employeeinfo;
 
+#If user wnat to delete the entry database
+create database Testing;
+use Testing;
+drop database Testing;
 
 

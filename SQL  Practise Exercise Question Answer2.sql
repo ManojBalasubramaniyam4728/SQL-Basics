@@ -29,6 +29,7 @@ create table EXAM_RESULTS(STUDENT_ID int(20),
  insert into EXAM_RESULTS values(14, 'CHARLES', 'PRADA', 1, 85);
  
  select * from EXAM_RESULTS;
+
  
  /**
  16. What is the result of the following SQL statement:

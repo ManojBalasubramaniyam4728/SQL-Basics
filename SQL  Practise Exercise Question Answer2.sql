@@ -6,8 +6,8 @@ STUDENT_ID	 FIRST_NAME	 LAST_NAME	 EXAM_ID	 EXAM_SCORE
 10	            LAURA	      LYNCH	     2	        85
 11	            GRACE	      BROWN	     1	        78
 11	            GRACE	      BROWN	     2	        72
-12	            JAY	        JACKSON	   1	        95
-12	            JAY	        JACKSON	   2	        92
+12	            JAY	          JACKSON	   1	        95
+12	            JAY	          JACKSON	   2	        92
 13	            WILLIAM	    BISHOP	    1	        70
 13	            WILLIAM	    BISHOP	    2	        100
 14	            CHARLES	    PRADA	     2	        85
